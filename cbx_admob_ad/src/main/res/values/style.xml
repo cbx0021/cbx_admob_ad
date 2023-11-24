@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Ad Module-->
+    <style name="RatingBar" parent="@style/Theme.AppCompat">
+        <item name="colorControlActivated">#FF9800</item>
+        <item name="colorControlNormal">#FF9800</item>
+    </style>
+    <!--End Ad Module-->
+    <style name="FullWidth.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--<item name="android:windowAnimationStyle">@style/DialogAnimation</item>-->
+    </style>
+</resources>

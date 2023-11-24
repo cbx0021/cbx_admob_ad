@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F8FF"
+    android:orientation="vertical"
+    tools:context="com.google.adcb.demo.activity.ActivityNativeList">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:navigationIcon="@drawable/ic_back"
+        app:title="Dummy Activity">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnViewLog"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:text="View Log"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartFinish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:textAllCaps="false"
+            android:text="Start New Activity With Finish" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStartFinishAffinity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:textAllCaps="false"
+            android:text="Start New Activity With Finish Affinity" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFinish"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:layout_height="wrap_content"
+            android:text="Finish"
+            android:textAllCaps="false" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFinishAffinity"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            app:backgroundTint="@android:color/holo_red_dark"
+            android:layout_height="wrap_content"
+            android:text="Finish Affinity"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/ltBanner"
+        layout="@layout/ad_layout_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp" />
+</LinearLayout>

@@ -1,0 +1,58 @@
+API => https://messagesshop.com/demo-cb-new-2/V1/
+
+pwd - qXJWunsBrzSwg5LT
+iv - MbjfPoAY8EOinJG5
+
+
+Error
+--------
+CONTENT_TYPE, REQUEST_METHOD, invalid parameter or blank pass, php side query error, other
+------
+400
+code = BAD_REQUEST
+message
+
+Success
+------------
+- success response always check with 200 http code
+- full response encrypt all files
+
+
+update.php (app info)
+================================
+send (POST) (full encrypted data)
+----------
+"data":{
+	VersionCode
+	PkgName
+	AndroidId
+}
+
+resposne (full encrypted)
+------
+- ads id return None string to ads not show
+
+{
+	"ads_banner_id":"ca-app-pub-3940256099942544/6300978111",
+	"ads_interstitial_id":"ca-app-pub-3940256099942544/1033173712",
+	"ads_native_id":"ca-app-pub-3940256099942544/2247696110",
+	"ads_app_open_id":"ca-app-pub-3940256099942544/3419835294",
+	"ads_app_id":"ca-app-pub-3940256099942544~3347511713",
+	"ads_native_view_id":1 or 2 (1 = Full Width Button, 2 = Small Width Button),
+	"ads_native_color":"Yes or No (Yes = Default, No = Theme)",
+	"ads_native_preload":"Yes or No",
+	"ads_splash":"AppOpen or None (AppOpen = show ads open, None = not show any ads)",
+	"ads_exit":"Yes or No",
+	"ads_interstitial_count_show":3 (inter start count),
+	"ads_interstitial_count":3 (inter interval count),
+	"ads_interstitial_back_count_show":3 (back inter start count),
+	"ads_interstitial_back_count":3 (back inter interval count),
+	"ads_interstitial_failed_count":0,
+	"ads_native_failed_count":0,
+	"ads_appopen_failed_count":0,
+	"extra_screen":"Yes or No (extra screen show)",
+	"ads_app_up_date":"Yes or No (move update dialog)",
+	"ads_app_up_date_link":"https://play.google.com/store/apps/details?id=com.fffemote (move update button link)",
+	"qureka_link":"",
+	"privacy_link":""
+}
