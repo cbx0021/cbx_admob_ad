@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="5dp"
     app:cardElevation="1dp">
     <!--NATIVE SHIMMER SMALL 1-->
@@ -261,7 +262,6 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/_190sdp"
         android:layout_gravity="center"
-        android:fontFamily="@font/inter_medium"
         android:gravity="center"
         android:text="Ad Space"
         android:textColor="#73818C9F"
@@ -273,7 +273,6 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/_85sdp"
         android:layout_gravity="center"
-        android:fontFamily="@font/inter_medium"
         android:gravity="center"
         android:text="Ad Space"
         android:textColor="#73818C9F"

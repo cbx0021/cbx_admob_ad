@@ -49,7 +49,6 @@
                             android:layout_height="match_parent"
                             android:layout_gravity="center"
                             android:adjustViewBounds="true"
-                            android:contentDescription="@string/app_name"
                             android:scaleType="fitXY" />
                     </androidx.cardview.widget.CardView>
                 </RelativeLayout>
@@ -152,9 +151,7 @@
                 android:layout_height="@dimen/_30sdp"
                 android:layout_marginHorizontal="@dimen/_5sdp"
                 android:layout_marginBottom="@dimen/_5sdp"
-                android:text="@string/app_name"
                 android:background="@drawable/ad_back_button_install"
-                android:fontFamily="@font/inter_medium"
                 android:gravity="center"
                 android:textAllCaps="true"
                 android:textColor="@color/white"
