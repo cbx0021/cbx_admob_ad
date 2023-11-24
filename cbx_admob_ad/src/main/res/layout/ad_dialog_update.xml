@@ -24,7 +24,6 @@
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="@dimen/_5sdp"
                 android:layout_marginTop="@dimen/_20sdp"
-                android:fontFamily="@font/inter_semi_bold"
                 android:gravity="center"
                 android:textColor="@android:color/black"
                 android:textSize="@dimen/_15ssp" />
@@ -39,7 +38,6 @@
                 android:layout_marginTop="@dimen/_20sdp"
                 android:layout_marginBottom="@dimen/_20sdp"
                 android:background="@drawable/ad_back_button_exit"
-                android:fontFamily="@font/inter_medium"
                 android:gravity="center"
                 android:text="Update"
                 android:textAllCaps="true"
